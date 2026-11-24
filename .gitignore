@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+jspm_packages/
+
+# Environment & secrets
+.env
+.env.*
+
+# Unused high-res originals (site only uses the JPG versions)
+vibe_images/
+assets/img/*.png
+
+# Logs & temp
+*.log
+.tmp/
+.cache/
+
+# OS files
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
+*.swp
